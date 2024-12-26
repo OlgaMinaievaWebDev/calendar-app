@@ -5,8 +5,8 @@ import { FaEdit } from "react-icons/fa";
 import { FaMessage } from "react-icons/fa6";
 function CalendarApp() {
   return (
-    <div>
-      <div>
+    <div className="w-screen h-screen bg-bgColor text-white  items-center grid">
+      <div className="bg-calendarBgColor w-[60%] min-w-[90vmin] p-4 aspect-w-3 aspect-h-2">
         <h1>Calendar</h1>
         <div>
           <h2>May,</h2>
